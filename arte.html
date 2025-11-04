@@ -1,0 +1,119 @@
+<!Doctype html>
+<html lang="es">
+<head>
+   <style>
+    body  {
+        font-family: "Bitcount Grid Single", sans-serif; 
+      font-weight: 300; 
+      background-color: #111;
+      color: white;
+      background-color: black;
+      color: white;
+    }
+      
+    </style> 
+
+    <meta charset="UTF-8">
+    <title>  </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet"> 
+
+<style>
+
+.fondo-morado {
+  width: 900px;               /* ancho ajustable */
+  height: 600px;              /* alto ajustable */
+  background-color: purple;   /* color de fondo */
+  border: 5px solid #800080;  /* borde (puedes cambiar color y grosor) */
+  border-radius: 25px;        /* bordes redondeados */
+  padding: 20px;              /* espacio interno */
+  box-sizing: border-box;     /* para que el padding no aumente el tamaño */
+  color: white;               /* color de texto por defecto */
+  position: relative;         /* permite posicionar elementos internos */
+  overflow: hidden;           /* evita que elementos se salgan */
+  font-family: "Bitcount Grid Single", sans-serif;
+}
+
+/* Texto dentro del contenedor */
+.fondo-morado h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.fondo-morado p {
+  font-size: 18px;
+}
+
+/* Imagen dentro del contenedor */
+.fondo-morado img {
+  width: 200px;       /* ancho de la imagen */
+  height: auto;       /* mantiene proporción */
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Video dentro del contenedor */
+.fondo-morado video {
+  width: 100%;        /* ajusta al ancho del contenedor */
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+</style>
+
+<div class="fondo-morado">
+  <h1> Elizabeth Bhatory </h1>
+<p> Mejor apodada como "La condesa sangrienta", fue una noble húngara del siglo XVI que, 
+    <br>segun la leyenda, se bañaba en sangre de doncellas para manter su juventud
+     <br> Y fue una inspiración para un personaje de un videojuego muy famoso de Capcom, Resident Evil Village, representada como Lady Dimitrescu.</p>
+  <img src="Lady Dimitrescu.jpeg" >
+</div>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botón de regreso</title>
+<style>
+/* 🎨 Estilo del botón de regreso */
+.boton-regresar {
+  position: absolute;
+  top: 500px;     /* ↕️ Mueve hacia arriba o abajo */
+  left: 1050px;    /* ↔️ Mueve hacia los lados */
+  width: 200px;  /* 🔲 Ancho ajustable */
+  height: 60px;  /* 🔳 Alto ajustable */
+  background-color: purple; 
+  color: white;
+  border: 3px solid rgb(114, 2, 108); /* 🟣 Borde visible */
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 🌟 Animación al pasar el mouse */
+.boton-regresar:hover {
+  animation: salto 0.6s ease;
+  box-shadow: 0 8px 25px rgba(122, 0, 122, 0.8);
+}
+
+/* 🕹️ Keyframes del salto */
+@keyframes salto {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-20px); }
+  60%  { transform: translateY(0); }
+  80%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+</style>
+</head>
+<body>
+
+<!-- 🟣 Botón de regreso -->
+<button class="boton-regresar" onclick="window.location.href='Liliana2.html'">
+  REGRESAR 
+</button>
+
+
+</head>
+</html>
